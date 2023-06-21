@@ -23,23 +23,25 @@
         </a>
         <ul class="nav-links">
           <li class="nav-item">
-            <a class="nav-link" href="#">אודות</a>
+            <a class="nav-link" href="#section--1">אודות</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">מעקף במספרים</a>
+            <a class="nav-link" href="#section--2">מעקף במספרים</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">הצטרפו אלינו</a>
+            <a class="nav-link" href="#section--3">הצטרפו אלינו</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">עקבו אחרינו</a>
+            <a class="nav-link" href="#section--4">עקבו אחרינו</a>
           </li>
         </ul>
       </nav>
 
       <div class="title-container">
         <h1 class="title">ברוכים הבאים למעקף, קהילת קוד פתוח ישראלית</h1>
-        <button class="btn btn-join">הצטרפו אלינו!</button>
+        <button class="btn btn-join btn-hidden">
+          הצטרפו לשרת הדיסקורד שלנו!
+        </button>
       </div>
     </header>
     <main>
@@ -49,15 +51,18 @@
           קהילת מעקף היא קהילת קוד פתוח ישראלית.
           <br />
           מטרת הקהילה היא לחבר בין ישראלים המעוניינים לתרום לקוד פתוח לבין
-          פרוייקטים ישראליים של קוד פתוח. הקהילה פעילה מאד בדיסקורד. אם אתם
-          מעוניינים להיכנס לעולם הקוד הפתוח, או להתחבר לפרוייקטים ישראלים, אתם
-          מוזמנים להציג את עצמכם בשרת הדיסקורד ולבקש הכוונה. אם אתם מתחזקים של
-          ספריית קוד פתוח אתם מוזמנים להציג את הפרוייקט שלכם לחברי הקהילה,
-          שבוודאי ישמחו לסייע לכם.
+          פרוייקטים ישראליים של קוד פתוח. הקהילה פעילה מאד בדיסקורד.
           <br />
-          תשומת לב מיוחדת אנחנו נותנים בקהילה למחפשי עבודה, מתוך תפיסה שתרומה
-          לקוד פתוח היא כלי משמעותי לשיפור הסיכויים לתהליך טוב לקראת המשרה הבאה
-          שלכם.
+          אם אתם <span class="in-p-bold">מעוניינים להיכנס</span> לעולם הקוד
+          הפתוח, או להתחבר לפרוייקטים ישראלים, אתם מוזמנים להציג את עצמכם בשרת
+          הדיסקורד ולבקש הכוונה.
+          <br />
+          אם אתם <span class="in-p-bold">מתחזקים</span> של ספריית קוד פתוח אתם
+          מוזמנים להציג את הפרוייקט שלכם לחברי הקהילה, שבוודאי ישמחו לסייע לכם.
+          <br />
+          תשומת לב מיוחדת אנחנו נותנים בקהילה
+          <span class="in-p-bold">למחפשי עבודה</span>, מתוך תפיסה שתרומה לקוד
+          פתוח היא כלי משמעותי לשיפור הסיכויים לתהליך טוב לקראת המשרה הבאה שלכם.
         </p>
       </section>
 
@@ -66,18 +71,36 @@
         <div>
           <!-- from incrementing project -->
           <div class="counter-container">
-            <i class="fab fa-twitter fa-3x"></i>
-            <div class="counter" data-target="12000"></div>
-            <span>חברים בקהילה</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="2em"
+              viewBox="0 0 640 512"
+            >
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"
+              />
+            </svg>
+            <div class="counter" data-target="674"></div>
+            <span>חברים בשרת הדיסקורד</span>
           </div>
-          <div class="counter-container">
+          <!-- <div class="counter-container">
             <i class="fab fa-youtube fa-3x"></i>
             <div class="counter" data-target="5000"></div>
             <span>תרומות לקוד פתוח דרך הקהילה</span>
-          </div>
+          </div> -->
           <div class="counter-container">
-            <i class="fab fa-facebook fa-3x"></i>
-            <div class="counter" data-target="7500"></div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="2em"
+              viewBox="0 0 512 512"
+            >
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M305.8 2.1C314.4 5.9 320 14.5 320 24V64h16c70.7 0 128 57.3 128 128V358.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V192c0-35.3-28.7-64-64-64H320v40c0 9.5-5.6 18.1-14.2 21.9s-18.8 2.3-25.8-4.1l-80-72c-5.1-4.6-7.9-11-7.9-17.8s2.9-13.3 7.9-17.8l80-72c7-6.3 17.2-7.9 25.8-4.1zM104 80A24 24 0 1 0 56 80a24 24 0 1 0 48 0zm8 73.3V358.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80c0 32.8-19.7 61-48 73.3zM104 432a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm328 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"
+              />
+            </svg>
+            <div class="counter" data-target="15"></div>
             <span>פרוייקטים פעילים</span>
           </div>
         </div>
@@ -86,7 +109,9 @@
       <section class="section" id="section--3">
         <h2>הצטרפו אלינו!</h2>
         <div class="join-options">
-          <p class="join-text" >מוזמנים בשמחה להצטרף לפעילות שלנו באחת מהאפשרויות הבאות:</p>
+          <p class="join-text">
+            מוזמנים להצטרף לפעילות שלנו באחת מהאפשרויות הבאות:
+          </p>
           <div class="join-option">
             <div class="join-option-title">
               <span class="option-title">הצטרפות דרך דיסקורד:</span>
@@ -102,7 +127,7 @@
                   /></svg
               ></span>
             </div>
-            <p ">הכי מומלץ! כל הכיף קורה שם 🥳</p>
+            <p>הכי מומלץ! כל הכיף קורה שם 🥳</p>
             <p>
               <a href="https://discord.com/invite/a2VyCjRk2M" target="_blank"
                 >לחצו כאן כדי להצטרף לשרת הדיסקורד שלנו</a
@@ -143,14 +168,47 @@
         </div>
       </section>
       <section class="section" id="section--4">
-        <h2>עקבו אחרינו</h2>
+        <h2>עקבו אחרינו!</h2>
         <div class="social-links">
-          <a class="social-link" href="https://www.linkedin.com/company/maakaf/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
-          <a class="social-link" href="https://www.youtube.com/@user-sg2ns8fi7d" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/company/maakaf/"
+            target="_blank"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="2em"
+              viewBox="0 0 448 512"
+            >
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+              /></svg
+          ></a>
+          <a
+            class="social-link"
+            href="https://www.youtube.com/@user-sg2ns8fi7d"
+            target="_blank"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="2em"
+              viewBox="0 0 576 512"
+            >
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+              /></svg
+          ></a>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <p class="p-footer">
+        This page was built by
+        <a href="https://www.linkedin.com/in/rivkizohar/" target="_blank"
+          >Rivki Zohar</a
+        >
+      </p>
+    </footer>
 
     <script src="app.js"></script>
   </body>
