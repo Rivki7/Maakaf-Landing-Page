@@ -185,8 +185,11 @@ body {
   border: solid #e5cd85;
   border-radius: 15px;
   opacity: 1;
-  transition: display 1s, transform 1s, opacity 1s;
+  transition: display 1s, transform 1s, opacity 1s, background-color 500ms;
   cursor: pointer;
+}
+.btn:hover {
+  background-color: #e5cd85;
 }
 
 .btn-hidden {
@@ -249,6 +252,9 @@ main {
   margin-bottom: 20px;
 }
 
+.join-icon {
+  margin-left: 10px;
+}
 .option-title {
   font-weight: 800;
   color: var(--logo-text-blue);
@@ -256,21 +262,20 @@ main {
 
 .join-option-title {
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
+
   align-items: center;
 }
-.join-option-title .option-icon {
-  margin-right: 10px;
+
+.join-options p a {
+  text-decoration: none;
+  color: var(--logo-text-blue);
+  border-bottom: 5px solid var(--logo-dark-blue);
+  font-weight: 600;
+  transition: all 250ms;
 }
 
-.join-options a {
-  /* text-decoration: none; */
-  color: var(--logo-text-blue);
-  text-decoration: underline var(--logo-dark-blue);
-  text-decoration-thickness: 5px;
-  text-underline-offset: 5px;
-  font-weight: 600;
+.join-options p a:hover {
+  border-bottom: 10px inset var(--logo-dark-blue);
 }
 
 .social-links {
