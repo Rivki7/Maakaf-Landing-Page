@@ -40,7 +40,7 @@ function typeWriter() {
 typeWriter(title);
 
 //Show the button at the top of the page after h1 typing effect is finished
-setTimeout(() => btnJoin.classList.remove('btn-hidden'), 5000);
+setTimeout(() => btnJoin.classList.remove('btn-hidden'), 1000);
 
 //Toggle humburger menu button on smaller screens
 const toggleButton = document.querySelector('.toggle-button');
