@@ -1,4 +1,4 @@
-# Ma'akaf's Landing Page
+# Ma'akaf's Landing    Page
 This page was built as a contribution to Ma'akaf, an open-source Israeli community.   
 The page provides an overview of Ma'akaf and its mission and includes links to the community's Discord server and WhatsApp groups.
   
